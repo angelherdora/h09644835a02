@@ -419,6 +419,19 @@ ul {
 .checkbox:checked:after {
   content: check;
 }
+select {
+  color: #0e213d;
+  background: transparent;
+  border: 1px solid #c9d9ee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
 .o-btn {
   background: #ffc31e;
   border: 1px solid #ff9814;
@@ -429,8 +442,8 @@ ul {
   display: inline-flex;
   font: 400 16px/19px 'Montserrat', sans-serif;
   padding: 10px 24px;
-  -webkit-transition: 1s all ease;
-  transition: 1s all ease;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   border-radius: 20px;
   font-weight: 600;
   -webkit-box-align: center;
@@ -439,6 +452,8 @@ ul {
   text-align: center;
 }
 .o-btn:hover {
+  border: 1px solid #265dbd;
+  background: #fff;
   opacity: 1;
 }
 .o-btn--line {
